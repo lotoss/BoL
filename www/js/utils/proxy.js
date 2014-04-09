@@ -1,7 +1,7 @@
 define(['jquery'], function ($) {
 	
 	function Proxy () {
-
+		
 	}
 
 	Proxy.prototype.options = {

@@ -25,6 +25,16 @@ $airports = array(
 		country => 'Россия'
 	),
 	array (
+		IATA => 'MSX',
+		city => 'Моссенджо',
+		country => 'Конго'
+	),
+	array (
+		IATA => 'OSM',
+		city => 'Мосул',
+		country => 'Ирак'
+	),
+	array (
 		title => 'Пулково',
 		IATA => 'LED',
 		city => 'Санкт-Петербург',

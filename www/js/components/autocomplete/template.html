@@ -1,9 +1,11 @@
 <div class="autocomplete">
-	<input type="text" class="autocomplete-input" placeholder="Откуда">
-	<input type="hidden" name="fromTitle" id="fromTitle" placeholder="Откуда">
+	<input type="text" class="autocomplete-input" placeholder="<%= placeholder %>">
+	<input type="hidden" name="<%= name %>" id="<%= id %>" value="<%= value %>">
 	<ul class="autocomplete-list">
-		<li class="autocomplete-item"><b>Москва,</b> Россия <i class="">IATA</i></li>
-		<li class="autocomplete-item"><b>Москва,</b> Россия <i>IATA</i></li>
-		<li class="autocomplete-no-resslts">Ничего не найдено</li>
+		<li class="autocomplete-no-results">Ничего не найдено</li>
 	</ul>
 </div>
+
+<script type="text/template" id="item">
+	<li class="autocomplete-item" data-idx="<%= idx %>"><%= value %></li>
+</script>

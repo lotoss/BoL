@@ -33,11 +33,9 @@
 				<form action="#" method="post">
 					<p>
 						<input type="text" name="from" id="from" placeholder="Откуда" />
-						<!-- <input type="hidden" name="fromIATA" id="fromIATA" /> -->
 					</p>
 					<p>
 						<input type="text" name="to" id="to" placeholder="Куда" />
-						<!-- <input type="hidden" name="toIATA" id="toIATA" /> -->
 					</p>
 					<div class="descript"><a href="#">Москва,</a> <a href="#">Санкт-Петербург,</a> <a href="#">Хельсинки</a></div>
 				</form>

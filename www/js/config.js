@@ -12,6 +12,7 @@ requirejs.config({
 		//Site parts
 
 		//Apps
+		'search.app': 'apps/search/index',
 
 		//Modules
 		'class' : 'utils/class',
@@ -42,6 +43,11 @@ requirejs(['jquery', 'underscore', 'backbone'], function ($, _, Backbone) {
 	$(function () {
 		if ( $('.block-form').size() ) 
 			requirejs(['site/index']);
+
+		if ( $('.result-page').size() ) {
+			requirejs(['search.app']);
+		}
+			
 
 		/*if ( $('.block-form').size() ) 
 			requirejs(['apps/search/index']);*/
